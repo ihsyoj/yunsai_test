@@ -6,7 +6,7 @@ import re
 import traceback
 import uuid
 
-import streamlit as st
+import streamlit_app as st
 
 from config import settings
 from utils.llm import get_client

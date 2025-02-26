@@ -8,9 +8,9 @@ class Settings(BaseSettings):
     OPENAI_MODEL_STREAMING: bool = True
     OPENAI_MODEL_THINKING: bool = False
 
-    OURS_API_KEY: str = ""
-    OURS_API_BASE: str = "http://127.0.0.1:6016/v1"
-    OURS_MODEL_NAME: str = "Qwen2.5-7B-Instruct"
+    OURS_API_KEY: str = "EMPTY"
+    OURS_API_BASE: str = "http://34.28.33.252:6001"
+    OURS_MODEL_NAME: str = "gemini-1.5-flash"
     OURS_MODEL_STREAMING: bool = True
     OURS_MODEL_THINKING: bool = False
 
